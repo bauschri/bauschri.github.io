@@ -10,12 +10,20 @@
 }
 
 main > .container-fluid {
-  padding: 60px 15px 0;
+  padding: 80px 15px 0;
 }
 
 main p,ul,li {
   font-size: 1.25rem;
   font-weight: 300;
+}
+
+main ul {
+  padding-inline-start: 0;
+}
+
+main ul li {
+  list-style-type: none;
 }
 
 .footer {
